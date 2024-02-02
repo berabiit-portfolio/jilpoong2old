@@ -1,0 +1,121 @@
+/* Reset */
+html,body {width:100%; height:100%}
+html {overflow-y:scroll}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button, menu {margin:0; padding:0}
+body, h1, h2, h3, h4, input, button {font-family:'돋움', Dotum, Helvetica, Sans-serif; font-size:12px; color:#383d41}
+body {background-color:#fff; word-break:break-all; -ms-word-break:break-all}
+img, fieldset, iframe {border:0 none}
+li {list-style:none}
+input,select,button {vertical-align:middle}
+img {vertical-align:top}
+i, em, address {font-style:normal}
+label, button {cursor:pointer}
+button {margin:0; padding:0}
+a {color:#2f3743; text-decoration:none}
+a:hover {color:#390; text-decoration:underline}
+option {padding-right:6px}
+hr {display:none}
+legend {width:0}
+table {/* border-collapse:collapse;table-layout:fixed; */border-collapse:collapse;border-spacing:0}
+
+/* Layout */
+#warp {display:block; position:relative}
+#container {display:block}
+#content {display:block}
+aside {display:block}
+footer {display:block}
+
+/* body */
+body {background:#000}
+
+/* wrap */
+#wrap {margin:0 auto}
+
+/* link */
+header {overflow:hidden}
+header menu {float:right}
+header menu li {float:left; margin-left:10px; width:35px; height:35px}
+header menu li:first-child {margin-left:0}
+
+/* content */
+#content .c_welcome {overflow:hidden}
+#content .c_welcome .photo {float:left}
+#content .c_welcome .txt {float:left}
+
+/* spot */
+.spot {position:relative}
+.spot_bg {position:absolute}
+
+.spot_bg .logo_naver a {display:block; position:absolute; top:0; right:0; width:68px; height:13px; background:url(/jilpoong2old/assets/images/logo_naver.png) no-repeat}
+.spot_bg .logo_naver span {display:none}
+
+.logo {display:block; position:absolute; left:50%; margin-left:-209px; width:428px; height:218px}
+.logo a {display:block; width:428px; height:218px; background:url(/jilpoong2old/assets/images/logo.png) no-repeat}
+.logo a span {display:none}
+
+/* main_menu */
+.main_menu {display:block; position:relative}
+.main_menu ul {display:block; overflow:hidden; position:relative; margin:0 auto; width:800px; height:183px}
+.main_menu ul li span {float:left}
+
+.main_menu .mn_intro a {overflow:hidden; position:absolute; top:0; left:0; width:157px; height:101px}
+.main_menu .mn_corp a {overflow:hidden; position:absolute; top:70px; left:135px; width:164px; height:113px}
+.main_menu .mn_work a {overflow:hidden; position:absolute; top:52px; left:300px; width:143px; height:112px}
+.main_menu .mn_portfolio a {overflow:hidden; position:absolute; top:50px; left:463px; width:159px; height:112px}
+.main_menu .mn_connect a {overflow:hidden; position:absolute; top:0; left:626px; width:171px; height:117px}
+
+.main_menu .mn_intro span {width:100%; height:100%}
+.main_menu .mn_corp span {width:100%; height:100%}
+.main_menu .mn_work span {width:100%; height:100%}
+.main_menu .mn_portfolio span {width:100%; height:100%}
+.main_menu .mn_connect span {width:100%; height:100%}
+
+/* Push */
+@-webkit-keyframes push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.push {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.push:hover, .push:focus, .push:active {
+  -webkit-animation-name: push;
+  animation-name: push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* c_box */
+.c_box {position:relative; margin:40px 0; background-color:#1c1c1c}
+
+/* footer */
+footer {position:relative; height:252px; background:url(/jilpoong2old/assets/images/footer_bg.png) no-repeat 50% 0}
+footer address {position:absolute; top:95px; left:50%; margin-left:-320.5px; width:641px; height:128px; background:url(/jilpoong2old/assets/images/footer.png) no-repeat 50% 0}
+footer address span {display:none}

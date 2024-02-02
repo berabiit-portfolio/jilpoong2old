@@ -1,0 +1,277 @@
+/* spot */
+.spot {height:210px}
+.spot_bg {left:50%; margin-left:-300px; width:600px; height:264px; background:url(/jilpoong2old/assets/images/sub/title.png) no-repeat}
+
+.spot_bg .logo_naver a {top:12px; right:12px}
+
+.logo {top:132px; margin-left:-142.5px; width:285px; height:120px}
+.logo a {width:285px; height:120px; background:url(/jilpoong2old/assets/images/sub/sub_logo.png) no-repeat}
+
+/* main_menu */
+.main_menu .mn_intro span {background:url(/jilpoong2old/assets/images/mn_intro_off.png) no-repeat}
+.main_menu .mn_corp span {background:url(/jilpoong2old/assets/images/mn_corp_off.png) no-repeat}
+.main_menu .mn_work span {background:url(/jilpoong2old/assets/images/mn_work_off.png) no-repeat}
+.main_menu .mn_portfolio span {background:url(/jilpoong2old/assets/images/mn_portfolio_off.png) no-repeat}
+.main_menu .mn_connect span {background:url(/jilpoong2old/assets/images/mn_connect_off.png) no-repeat}
+
+.main_menu .mn_intro:hover span {background:url(/jilpoong2old/assets/images/mn_intro.png) no-repeat}
+.main_menu .mn_corp:hover span {background:url(/jilpoong2old/assets/images/mn_corp.png) no-repeat}
+.main_menu .mn_work:hover span {background:url(/jilpoong2old/assets/images/mn_work.png) no-repeat}
+.main_menu .mn_portfolio:hover span {background:url(/jilpoong2old/assets/images/mn_portfolio.png) no-repeat}
+.main_menu .mn_connect:hover span {background:url(/jilpoong2old/assets/images/mn_connect.png) no-repeat}
+
+.main_menu .mn_intro.on span {background:url(/jilpoong2old/assets/images/mn_intro.png) no-repeat}
+.main_menu .mn_corp.on span {background:url(/jilpoong2old/assets/images/mn_corp.png) no-repeat}
+.main_menu .mn_work.on span {background:url(/jilpoong2old/assets/images/mn_work.png) no-repeat}
+.main_menu .mn_portfolio.on span {background:url(/jilpoong2old/assets/images/mn_portfolio.png) no-repeat}
+.main_menu .mn_connect.on span {background:url(/jilpoong2old/assets/images/mn_connect.png) no-repeat}
+
+/* c_nav */
+.c_nav .c_menu {position:absolute; top:12px; width:188px}
+.c_nav .c_menu span {display:none}
+
+.c_nav .c_menu ul li {font-size:0; text-align:center}
+.c_nav .c_menu ul li a {width:188px; display:inline-block; height:20px}
+.c_nav .c_menu ul li.on a {height:54px}
+
+.c_nav .c_preimg {position:absolute; bottom:0; right:0}
+.c_nav .c_preimg span {display:none}
+
+/* c_box */
+.c_box {height:170px}
+.c_nav {position:relative; margin:0 auto; width:784px; height:170px}
+
+/* c_article */
+.c_article span {display:none}
+
+/* ************ mn01 ************ */
+/* c_nav */
+.c_nav.m01.n01 .nav02 {margin-bottom:20px}
+.c_nav.m01.n02 .nav01 {margin:15px 0 5px}
+.c_nav.m01.n03 .nav01 {margin:15px 0 19px}
+.c_nav.m01.n03 .nav02 {margin-bottom:7px}
+
+.c_nav.m01 .nav01 a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-1.png) no-repeat}
+.c_nav.m01 .nav02 a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-2.png) no-repeat}
+.c_nav.m01 .nav03 a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-3.png) no-repeat}
+
+.c_nav.m01 .nav01 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn01-1_o.png) no-repeat}
+.c_nav.m01 .nav02 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn01-2_o.png) no-repeat}
+.c_nav.m01 .nav03 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn01-3_o.png) no-repeat}
+
+.c_nav.m01 .nav01.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-1_on.png) no-repeat}
+.c_nav.m01 .nav02.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-2_on.png) no-repeat}
+.c_nav.m01 .nav03.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn01-3_on.png) no-repeat}
+
+.c_nav.m01 .c_preimg {width:188px; height:131px; background:url(/jilpoong2old/assets/images/sub/mn01_preimg.png) no-repeat}
+
+/* c_article */
+.mn01-1_article {position:relative; height:800px}
+.mn01-2_article {position:relative; height:334px}
+.mn01-3_article {position:relative; height:605px}
+
+.mn01-2_article .c_article {margin:0 auto; width:642px; height:324px; background:url(/jilpoong2old/assets/images/sub/mn01-2_article.png) no-repeat}
+
+.wowwow {position:relative}
+.ddd {position:absolute; top:60px; width:1100px; height:161px; left:50%; margin-left:-550px}
+.bbb {position:absolute; top:0; left:70px; width:216px; height:161px; background:url(/jilpoong2old/assets/images/sub/001.png) no-repeat}
+.ccc {position:absolute; top:0; left:815px; width:219px; height:150px; background:url(/jilpoong2old/assets/images/sub/002.png) no-repeat}
+
+.bbb span, .ccc span {display:none}
+
+.mn01-1_article .c_title {position:absolute; left:50%; margin-left:-314px; width:628px; height:46px; background:url(/jilpoong2old/assets/images/sub/551.png) no-repeat}
+.mn01-1_article .c_title span {display:none}
+
+.mn01-1_article .c_ggg {position:absolute; bottom:0; left:50%; margin-left:-314px; width:628px; height:146px; background:url(/jilpoong2old/assets/images/sub/550.png) no-repeat}
+.mn01-1_article .c_ggg span {display:none}
+
+#titles
+{
+	position: absolute;
+width: 756px;
+height: 940px;
+bottom: 0;
+left: 50%;
+margin-left: -378px;
+font-size: 350%;
+text-align: justify;
+overflow: hidden;
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+-webkit-transform: perspective(300px) rotateX(15deg);
+-moz-transform: perspective(300px) rotateX(15deg);
+-ms-transform: perspective(300px) rotateX(15deg);
+-o-transform: perspective(300px) rotateX(15deg);
+transform: perspective(300px) rotateX(15deg);
+}
+
+.aaaa {position:relative; padding-top:140px; height:500px; color:#fff; font-family:"나눔고딕"; font-weight:700; background:url(/jilpoong2old/assets/images/sub/abc.png) 50% 100% no-repeat;}
+
+#titlecontent
+{
+	position: absolute;
+top: 100%;
+text-align:center;
+line-height:62px;
+-webkit-animation: scroll 33s linear 2s infinite;
+-moz-animation: scroll 33s linear 2s infinite;
+-ms-animation: scroll 33s linear 2s infinite;
+-o-animation: scroll 33s linear 2s infinite;
+animation: scroll 33s linear 2s infinite;
+}
+
+/* animation */
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -100%; }
+}
+
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -100%; }
+}
+
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -100%; }
+}
+
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -100%; }
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -100%; }
+}
+
+.mn01-3_article .c_article {margin:0 auto; width:650px}
+.mn01-3_article .c_article span {display:none}
+.mn01-3_article .c_article .c_title {margin:0 auto; margin-bottom:30px; width:370px; height:28px; background:url(/jilpoong2old/assets/images/sub/mn01-3_title.png) no-repeat}
+.mn01-3_article .c_article .c_map {margin:0 auto; margin-bottom:40px; width:650px; height:360px}
+.mn01-3_article .c_article .c_footer {margin:0 auto;  width:423px; height:144px; background:url(/jilpoong2old/assets/images/sub/mn01-3_footer.png) no-repeat}
+
+/* ************ mn02 ************ */
+/* c_nav */
+.c_nav.m02.n01 .nav02 {margin-bottom:20px}
+.c_nav.m02.n02 .nav01 {margin:13px 0 7px}
+.c_nav.m02.n03 .nav01 {margin:13px 0 21px}
+.c_nav.m02.n03 .nav02 {margin-bottom:5px}
+
+.c_nav.m02 .nav01 a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-1.png) no-repeat}
+.c_nav.m02 .nav02 a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-2.png) no-repeat}
+.c_nav.m02 .nav03 a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-3.png) no-repeat}
+
+.c_nav.m02 .nav01 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn02-1_o.png) no-repeat}
+.c_nav.m02 .nav02 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn02-2_o.png) no-repeat}
+.c_nav.m02 .nav03 a:hover {background:url(/jilpoong2old/assets/images/sub/btn_mn02-3_o.png) no-repeat}
+
+.c_nav.m02 .nav01.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-1_on.png) no-repeat}
+.c_nav.m02 .nav02.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-2_on.png) no-repeat}
+.c_nav.m02 .nav03.on a {background:url(/jilpoong2old/assets/images/sub/btn_mn02-3_on.png) no-repeat}
+
+.c_nav.m02 .c_preimg {width:188px; height:140px; background:url(/jilpoong2old/assets/images/sub/mn02_preimg.png) no-repeat}
+
+/* c_article */
+.c_article span {display:none}
+
+.mn02-1_article .c_article {margin:0 auto; width:680px}
+.mn02-1_article .c_article span {display:none}
+.mn02-1_article .c_article .c_title {margin:0 auto; margin-bottom:30px; width:324px; height:28px; background:url(/jilpoong2old/assets/images/sub/mn02-1_title.png) no-repeat}
+.mn02-1_article .c_article .c_movie {margin:0 auto; margin-bottom:40px; width:680px; height:383px}
+.mn02-1_article .c_article .c_footer {margin:0 auto;  width:423px; height:144px; background:url(/jilpoong2old/assets/images/sub/mn02-1_footer.png) no-repeat}
+
+.mn02-2_article {position:relative; height:2500px}
+.mn02-2_article .c_article {margin:0 auto; width:756px; height:2500px; background:url(/jilpoong2old/assets/images/sub/mn02-2_article.png) no-repeat}
+
+.mn02-3_article {position:relative; height:1207px}
+.mn02-3_article .c_article {margin:0 auto; width:703px; height:1197px; background:url(/jilpoong2old/assets/images/sub/mn02-3_article.png) no-repeat}
+
+/* ************ mn03 ************ */
+/* c_box */
+.c_box .c_5minit {position:absolute; left:50%; bottom:0; margin-left:-382.5px; width:765px; height:170px; background:url(/jilpoong2old/assets/images/sub/c_5minit.png) no-repeat}
+.c_box .c_5minit span {display:none}
+
+/* c_article */
+.mn03_article {position:relative; height:2309px}
+.mn03_article .c_article {margin:0 auto; width:669px; height:2309px; background:url(/jilpoong2old/assets/images/sub/mn03_article.png) no-repeat}
+
+.mn03_article .c_article span {display:none}
+
+/* ************ mn04 ************ */
+/* c_box */
+.c_box .c_happy {position:absolute; left:50%; bottom:0; margin-left:-382.5px; width:765px; height:170px; background:url(/jilpoong2old/assets/images/sub/c_happy.png) no-repeat}
+.c_box .c_happy span {display:none}
+
+/* c_article */
+.c_article {position:relative}
+.n04 .c_menu {margin:0 auto; margin-top:20px; margin-bottom:30px; width:510px; height:54px}
+.n04 .c_menu ul li {display:inline-block; float:left; width:170px; height:54px}
+.n04 .c_menu ul li a {color:#000}
+.n04 .c_menu ul li a:hover {color:#000}
+.n04 .c_menu ul li span {position:absolute; display:inline-block; width:170px; height:54px}
+
+/* c_menu */
+.c_menu .m1 {background:url(/jilpoong2old/assets/images/portfolio/btn_01_off.png) no-repeat}
+.c_menu .m2 {background:url(/jilpoong2old/assets/images/portfolio/btn_02_off.png) no-repeat}
+.c_menu .m3 {background:url(/jilpoong2old/assets/images/portfolio/btn_03_off.png) no-repeat}
+
+.c_menu .m1:hover {background:url(/jilpoong2old/assets/images/portfolio/btn_01_offs.png) no-repeat}
+.c_menu .m2:hover {background:url(/jilpoong2old/assets/images/portfolio/btn_02_offs.png) no-repeat}
+.c_menu .m3:hover {background:url(/jilpoong2old/assets/images/portfolio/btn_03_offs.png) no-repeat}
+
+.c_menu .m1.on {background:url(/jilpoong2old/assets/images/portfolio/btn_01.png) no-repeat}
+.c_menu .m2.on {background:url(/jilpoong2old/assets/images/portfolio/btn_02.png) no-repeat}
+.c_menu .m3.on {background:url(/jilpoong2old/assets/images/portfolio/btn_03.png) no-repeat}
+
+/* c_article */
+.mn04-1_article {position:relative; margin:0 auto; width:1010px}
+.mn04-1_article .img01 {height:416px; background:url(/jilpoong2old/assets/images/portfolio/name01/01.png) no-repeat}
+.mn04-1_article .img02 {height:615px; background:url(/jilpoong2old/assets/images/portfolio/name01/02.png) no-repeat}
+.mn04-1_article .img03 {height:488px; background:url(/jilpoong2old/assets/images/portfolio/name01/03.png) no-repeat}
+.mn04-1_article .img04 {height:582px; background:url(/jilpoong2old/assets/images/portfolio/name01/04.png) no-repeat}
+.mn04-1_article .img05 {height:717px; background:url(/jilpoong2old/assets/images/portfolio/name01/05.png) no-repeat}
+.mn04-1_article .img06 {height:667px; background:url(/jilpoong2old/assets/images/portfolio/name01/06.png) no-repeat}
+.mn04-1_article .img07 {height:454px; background:url(/jilpoong2old/assets/images/portfolio/name01/07.png) no-repeat}
+.mn04-1_article .img08 {height:300px; background:url(/jilpoong2old/assets/images/portfolio/name01/08.png) no-repeat}
+
+.mn04-1_article .blizzard {display:block; position:absolute; left:332px; bottom:183px; width:153px; height:100px}
+.mn04-1_article .disney {display:block; position:absolute; left:512px; bottom:183px; width:153px; height:110px}
+.mn04-1_article .diablo {display:block; position:absolute; left:342px; top:53px; width:323px; height:200px}
+.mn04-1_article .frozen {display:block; position:absolute; left:649px; top:443px; width:268px; height:579px}
+
+.mn04-2_article {position:relative; margin:0 auto; width:690px}
+.mn04-2_article .img01 {height:507px; background:url(/jilpoong2old/assets/images/portfolio/name02/01.png) no-repeat}
+.mn04-2_article .img02 {height:831px; background:url(/jilpoong2old/assets/images/portfolio/name02/02.png) no-repeat}
+.mn04-2_article .img03 {height:576px; background:url(/jilpoong2old/assets/images/portfolio/name02/03.png) no-repeat}
+.mn04-2_article .img04 {height:264px; background:url(/jilpoong2old/assets/images/portfolio/name02/04.png) no-repeat}
+.mn04-2_article .img05 {height:573px; background:url(/jilpoong2old/assets/images/portfolio/name02/05.png) no-repeat}
+.mn04-2_article .img06 {height:276px; background:url(/jilpoong2old/assets/images/portfolio/name02/06.png) no-repeat}
+
+.mn04-2_article .jil {display:block; position:absolute; left:158px; bottom:491px; width:373px; height:248px}
+.mn04-2_article .bbq {display:block; position:absolute; left:158px; bottom:257px; width:373px; height:220px}
+
+.mn04-3_article {position:relative; margin:0 auto; width:688px}
+.mn04-3_article .img01 {height:727px; background:url(/jilpoong2old/assets/images/portfolio/name03/01.png) no-repeat}
+.mn04-3_article .img02 {height:497px; background:url(/jilpoong2old/assets/images/portfolio/name03/02.png) no-repeat}
+.mn04-3_article .img03 {height:548px; background:url(/jilpoong2old/assets/images/portfolio/name03/03.png) no-repeat}
+.mn04-3_article .img04 {height:863px; background:url(/jilpoong2old/assets/images/portfolio/name03/04.png) no-repeat}
+.mn04-3_article .img05 {height:702px; background:url(/jilpoong2old/assets/images/portfolio/name03/05.png) no-repeat}
+.mn04-3_article .img06 {height:200px; background:url(/jilpoong2old/assets/images/portfolio/name03/06.png) no-repeat}
+
+.mn04-3_article .pc {display:block; position:absolute; left:162px; bottom:56px; width:373px; height:120px}
+
+/* ************ mn05 ************ */
+/* c_box */
+.c_box .c_goon {position:absolute; left:50%; bottom:0; margin-left:-382.5px; width:765px; height:170px; background:url(/jilpoong2old/assets/images/sub/c_goon.png) no-repeat}
+.c_box .c_goon span {display:none}
+
+/* c_article */
+.mn05_article {position:relative; height:2283px}
+.mn05_article .c_article {margin:0 auto; width:561px; height:2283px; background:url(/jilpoong2old/assets/images/sub/mn05_article.png) no-repeat}
+
+.mn05_article .c_article span {display:none}

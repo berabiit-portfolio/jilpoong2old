@@ -1,0 +1,23 @@
+/* main_menu */
+.main_menu .mn_intro span {background:url(../images/mn_intro.png) no-repeat}
+.main_menu .mn_corp span {background:url(../images/mn_corp.png) no-repeat}
+.main_menu .mn_work span {background:url(../images/mn_work.png) no-repeat}
+.main_menu .mn_portfolio span {background:url(../images/mn_portfolio.png) no-repeat}
+.main_menu .mn_connect span {background:url(../images/mn_connect.png) no-repeat}
+
+/* spot */
+.spot {height:566px}
+.spot_bg {left:50%; margin-left:-290.5px; width:581px; height:619px; background:url(../images/main/title.png) no-repeat}
+.spot_bg .logo_naver a {top:12px; right:12px}
+
+.logo {top:400px}
+
+/* c_box */
+.c_box {height:185px}
+.c_box .c_welcome {position:absolute; left:50%; bottom:0; margin-left:-392px; width:784px; height:176px; background:url(../images/main/c_welcome.png) no-repeat}
+.c_box .c_welcome span {display:none}
+
+/* c_article */
+.c_promotion {position:relative; height:412px}
+.c_promotion .c_article {position:absolute; left:50%; bottom:0; margin-left:-353.5px; width:707px; height:402px; background:url(../images/main/c_article.png) no-repeat}
+.c_promotion .c_article span {display:none}
